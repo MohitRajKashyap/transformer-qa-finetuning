@@ -13,8 +13,6 @@
 
 </div>
 
----
-
 > **Research-grade, fully reproducible pipeline** for fine-tuning DistilBERT on Stanford Question Answering Dataset (SQuAD v1.1).  
 > Achieves **F1: 85.1% | EM: 76.2%** in ~45 minutes on a single A100 GPU.  
 > Built with clean architecture, experiment tracking, ablation studies, and calibration analysis.
@@ -404,7 +402,7 @@ If you use this codebase in your research:
   author = {Research Engineering Team},
   title  = {Transformer Fine-Tuning for Extractive Question Answering},
   year   = {2025},
-  url    = {https://github.com/yourusername/transformer-qa-finetuning}
+  url    = {https://github.com/MohitRajKashyap/transformer-qa-finetuning}
 }
 ```
 
@@ -423,6 +421,6 @@ MIT License — see [LICENSE](LICENSE) for details.
 
 <div align="center">
 
-Built with ❤️ by the Research Engineering Team · [Report Issues](https://github.com/yourusername/transformer-qa-finetuning/issues)
+Built with ❤️ by Mohit Raj Kashyap · [Report Issues](https://github.com/MohitRajKashyap/transformer-qa-finetuning/issues)
 
 </div>
