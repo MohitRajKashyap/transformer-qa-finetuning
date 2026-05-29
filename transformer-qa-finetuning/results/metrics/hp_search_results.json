@@ -1,0 +1,650 @@
+[
+  {
+    "run": 64,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 85.24,
+    "exact_match": 76.0
+  },
+  {
+    "run": 46,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 85.18,
+    "exact_match": 76.16
+  },
+  {
+    "run": 70,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 85.1,
+    "exact_match": 76.68
+  },
+  {
+    "run": 12,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 85.01,
+    "exact_match": 75.97
+  },
+  {
+    "run": 47,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.97,
+    "exact_match": 75.96
+  },
+  {
+    "run": 45,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.96,
+    "exact_match": 76.05
+  },
+  {
+    "run": 16,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.94,
+    "exact_match": 75.86
+  },
+  {
+    "run": 35,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.92,
+    "exact_match": 75.88
+  },
+  {
+    "run": 60,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.92,
+    "exact_match": 75.88
+  },
+  {
+    "run": 63,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.89,
+    "exact_match": 75.96
+  },
+  {
+    "run": 29,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.88,
+    "exact_match": 76.18
+  },
+  {
+    "run": 10,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.86,
+    "exact_match": 75.85
+  },
+  {
+    "run": 26,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.85,
+    "exact_match": 75.97
+  },
+  {
+    "run": 25,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.84,
+    "exact_match": 75.86
+  },
+  {
+    "run": 41,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.84,
+    "exact_match": 75.7
+  },
+  {
+    "run": 62,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.79,
+    "exact_match": 76.06
+  },
+  {
+    "run": 40,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.77,
+    "exact_match": 75.71
+  },
+  {
+    "run": 44,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.76,
+    "exact_match": 75.76
+  },
+  {
+    "run": 71,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.75,
+    "exact_match": 75.55
+  },
+  {
+    "run": 24,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.74,
+    "exact_match": 75.79
+  },
+  {
+    "run": 65,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.73,
+    "exact_match": 75.55
+  },
+  {
+    "run": 66,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.73,
+    "exact_match": 75.45
+  },
+  {
+    "run": 50,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.72,
+    "exact_match": 75.54
+  },
+  {
+    "run": 28,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.7,
+    "exact_match": 75.57
+  },
+  {
+    "run": 8,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.66,
+    "exact_match": 75.49
+  },
+  {
+    "run": 11,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.66,
+    "exact_match": 75.53
+  },
+  {
+    "run": 30,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.62,
+    "exact_match": 75.81
+  },
+  {
+    "run": 23,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.59,
+    "exact_match": 75.64
+  },
+  {
+    "run": 33,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.59,
+    "exact_match": 75.75
+  },
+  {
+    "run": 59,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.59,
+    "exact_match": 75.6
+  },
+  {
+    "run": 52,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.57,
+    "exact_match": 75.72
+  },
+  {
+    "run": 9,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.55,
+    "exact_match": 75.36
+  },
+  {
+    "run": 38,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.54,
+    "exact_match": 75.68
+  },
+  {
+    "run": 18,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.52,
+    "exact_match": 75.75
+  },
+  {
+    "run": 53,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.52,
+    "exact_match": 75.48
+  },
+  {
+    "run": 32,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.51,
+    "exact_match": 75.63
+  },
+  {
+    "run": 42,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.51,
+    "exact_match": 75.43
+  },
+  {
+    "run": 48,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.51,
+    "exact_match": 75.22
+  },
+  {
+    "run": 6,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.5,
+    "exact_match": 75.66
+  },
+  {
+    "run": 21,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.5,
+    "exact_match": 75.61
+  },
+  {
+    "run": 67,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.49,
+    "exact_match": 75.45
+  },
+  {
+    "run": 55,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.45,
+    "exact_match": 75.11
+  },
+  {
+    "run": 56,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.45,
+    "exact_match": 75.5
+  },
+  {
+    "run": 69,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.44,
+    "exact_match": 75.6
+  },
+  {
+    "run": 34,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.43,
+    "exact_match": 75.34
+  },
+  {
+    "run": 54,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.43,
+    "exact_match": 75.37
+  },
+  {
+    "run": 7,
+    "lr": 1e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.42,
+    "exact_match": 75.64
+  },
+  {
+    "run": 43,
+    "lr": 3e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.42,
+    "exact_match": 75.52
+  },
+  {
+    "run": 58,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.42,
+    "exact_match": 75.32
+  },
+  {
+    "run": 51,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.41,
+    "exact_match": 75.67
+  },
+  {
+    "run": 14,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.38,
+    "exact_match": 75.45
+  },
+  {
+    "run": 2,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.34,
+    "exact_match": 75.53
+  },
+  {
+    "run": 5,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.31,
+    "exact_match": 75.14
+  },
+  {
+    "run": 61,
+    "lr": 5e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.3,
+    "exact_match": 75.33
+  },
+  {
+    "run": 39,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.29,
+    "exact_match": 75.32
+  },
+  {
+    "run": 15,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.26,
+    "exact_match": 75.35
+  },
+  {
+    "run": 17,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.06,
+    "f1": 84.26,
+    "exact_match": 75.1
+  },
+  {
+    "run": 4,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.24,
+    "exact_match": 75.17
+  },
+  {
+    "run": 22,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.0,
+    "f1": 84.24,
+    "exact_match": 75.29
+  },
+  {
+    "run": 27,
+    "lr": 2e-05,
+    "batch_size": 16,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.24,
+    "exact_match": 75.18
+  },
+  {
+    "run": 19,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.2,
+    "exact_match": 75.04
+  },
+  {
+    "run": 36,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 84.2,
+    "exact_match": 74.97
+  },
+  {
+    "run": 20,
+    "lr": 2e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 84.11,
+    "exact_match": 75.24
+  },
+  {
+    "run": 37,
+    "lr": 3e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.1,
+    "exact_match": 75.2
+  },
+  {
+    "run": 1,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.09,
+    "exact_match": 74.88
+  },
+  {
+    "run": 49,
+    "lr": 3e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 84.08,
+    "exact_match": 74.88
+  },
+  {
+    "run": 57,
+    "lr": 5e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 84.06,
+    "exact_match": 74.78
+  },
+  {
+    "run": 68,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "f1": 83.98,
+    "exact_match": 74.78
+  },
+  {
+    "run": 13,
+    "lr": 1e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 83.97,
+    "exact_match": 74.9
+  },
+  {
+    "run": 72,
+    "lr": 5e-05,
+    "batch_size": 32,
+    "scheduler": "cosine",
+    "warmup_ratio": 0.1,
+    "f1": 83.9,
+    "exact_match": 74.96
+  },
+  {
+    "run": 31,
+    "lr": 2e-05,
+    "batch_size": 32,
+    "scheduler": "linear",
+    "warmup_ratio": 0.0,
+    "f1": 83.83,
+    "exact_match": 74.77
+  },
+  {
+    "run": 3,
+    "lr": 1e-05,
+    "batch_size": 8,
+    "scheduler": "linear",
+    "warmup_ratio": 0.1,
+    "f1": 83.45,
+    "exact_match": 74.19
+  }
+]

@@ -1,0 +1,63 @@
+{
+  "experiment": {
+    "name": "distilbert-squad-v1-default",
+    "model": "distilbert-base-uncased",
+    "dataset": "squad",
+    "seed": 42,
+    "date": "2025-01-15T09:14:32Z"
+  },
+  "config": {
+    "learning_rate": 3e-05,
+    "batch_size": 16,
+    "epochs": 3,
+    "scheduler": "linear",
+    "warmup_ratio": 0.06,
+    "fp16": true,
+    "max_seq_length": 384,
+    "doc_stride": 128
+  },
+  "training_history": [
+    {
+      "epoch": 1,
+      "step": 5475,
+      "train_loss": 1.8474,
+      "val_loss": 1.6124,
+      "exact_match": 72.41,
+      "f1": 81.93,
+      "learning_rate": 1.94e-05,
+      "elapsed_seconds": 913.2,
+      "gpu_memory_gb": 5.81
+    },
+    {
+      "epoch": 2,
+      "step": 10950,
+      "train_loss": 1.1822,
+      "val_loss": 1.2243,
+      "exact_match": 75.13,
+      "f1": 84.22,
+      "learning_rate": 9.7e-06,
+      "elapsed_seconds": 909.7,
+      "gpu_memory_gb": 5.81
+    },
+    {
+      "epoch": 3,
+      "step": 16425,
+      "train_loss": 0.8474,
+      "val_loss": 1.0892,
+      "exact_match": 76.24,
+      "f1": 85.13,
+      "learning_rate": 0,
+      "elapsed_seconds": 908.4,
+      "gpu_memory_gb": 5.81
+    }
+  ],
+  "final_metrics": {
+    "exact_match": 76.24,
+    "f1": 85.13,
+    "total": 10570,
+    "ece": 0.0312,
+    "mce": 0.0871
+  },
+  "best_checkpoint": "results/checkpoints/checkpoint-best",
+  "total_training_time_minutes": 45.5
+}

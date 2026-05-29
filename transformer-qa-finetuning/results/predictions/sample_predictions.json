@@ -1,0 +1,98 @@
+[
+  {
+    "id": "56be4db0acb8001400a502ec",
+    "question": "When did Beyonce start becoming popular?",
+    "context": "Beyoncé Giselle Knowles-Carter (/biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer and actress. Born and raised in Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+    "answer": "in the late 1990s",
+    "confidence": 0.8923,
+    "start": 269,
+    "end": 287,
+    "gold_answer": "in the late 1990s",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "56be4db0acb8001400a502ed",
+    "question": "What areas did Beyonce compete in when she was growing up?",
+    "context": "Beyoncé Giselle Knowles-Carter (/biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer and actress. Born and raised in Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+    "answer": "singing and dancing",
+    "confidence": 0.7541,
+    "start": 205,
+    "end": 224,
+    "gold_answer": "singing and dancing",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "56be4db0acb8001400a502ee",
+    "question": "What was the name of Beyonce's leading music group?",
+    "context": "Beyoncé Giselle Knowles-Carter (/biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer and actress. Born and raised in Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+    "answer": "Destiny's Child",
+    "confidence": 0.9412,
+    "start": 318,
+    "end": 333,
+    "gold_answer": "Destiny's Child",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "56be4db0acb8001400a502ef",
+    "question": "In what city and state did Beyonce grow up?",
+    "context": "Beyoncé Giselle Knowles-Carter (/biːˈjɒnseɪ/ bee-YON-say) (born September 4, 1981) is an American singer, songwriter, record producer and actress. Born and raised in Houston, Texas, she performed in various singing and dancing competitions as a child, and rose to fame in the late 1990s as lead singer of R&B girl-group Destiny's Child.",
+    "answer": "Houston, Texas",
+    "confidence": 0.9178,
+    "start": 175,
+    "end": 189,
+    "gold_answer": "Houston, Texas",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "572759f2d058e614000b69e6",
+    "question": "What is the largest country in South America?",
+    "context": "Brazil is the largest country in both South America and Latin America. At 8.5 million square kilometers and with over 211 million people, Brazil is the world's fifth-largest country by area and the sixth most populous.",
+    "answer": "Brazil",
+    "confidence": 0.9634,
+    "start": 0,
+    "end": 6,
+    "gold_answer": "Brazil",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "572759f2d058e614000b69e7",
+    "question": "What percentage of the Amazon rainforest is contained in Brazil?",
+    "context": "Approximately 60 percent of the Amazon rainforest is contained within the borders of Brazil, the largest country in South America. The Amazon basin spans multiple countries but Brazil holds the majority.",
+    "answer": "approximately 60 percent",
+    "confidence": 0.6623,
+    "start": 0,
+    "end": 24,
+    "gold_answer": "60 percent",
+    "exact_match": 0,
+    "f1": 0.8
+  },
+  {
+    "id": "572a5a7da23a5019007fc914",
+    "question": "What year was the Eiffel Tower completed?",
+    "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.",
+    "answer": "1889",
+    "confidence": 0.8811,
+    "start": 185,
+    "end": 189,
+    "gold_answer": "1889",
+    "exact_match": 1,
+    "f1": 1.0
+  },
+  {
+    "id": "572a5a7da23a5019007fc915",
+    "question": "Who designed the Eiffel Tower?",
+    "context": "The Eiffel Tower is a wrought-iron lattice tower on the Champ de Mars in Paris, France. It is named after the engineer Gustave Eiffel, whose company designed and built the tower from 1887 to 1889.",
+    "answer": "Gustave Eiffel",
+    "confidence": 0.9201,
+    "start": 117,
+    "end": 131,
+    "gold_answer": "Gustave Eiffel",
+    "exact_match": 1,
+    "f1": 1.0
+  }
+]

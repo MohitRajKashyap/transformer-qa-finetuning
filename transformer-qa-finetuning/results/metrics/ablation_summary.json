@@ -1,0 +1,25 @@
+{
+  "metadata": {
+    "date": "2025-01-18",
+    "model": "distilbert-base-uncased",
+    "dataset": "squad_v1.1",
+    "baseline_em": 76.24,
+    "baseline_f1": 85.13
+  },
+  "results": {
+    "Baseline (default)":     {"exact_match": 76.24, "f1": 85.13, "delta_em": 0.0,  "delta_f1": 0.0},
+    "No FP16 (FP32)":         {"exact_match": 76.03, "f1": 84.91, "delta_em": -0.21, "delta_f1": -0.22},
+    "No LR Warmup":           {"exact_match": 73.82, "f1": 83.21, "delta_em": -2.42, "delta_f1": -1.92},
+    "Batch Size = 8":         {"exact_match": 75.61, "f1": 84.47, "delta_em": -0.63, "delta_f1": -0.66},
+    "Batch Size = 32":        {"exact_match": 75.89, "f1": 84.73, "delta_em": -0.35, "delta_f1": -0.40},
+    "Max Seq Length = 256":   {"exact_match": 71.38, "f1": 81.29, "delta_em": -4.86, "delta_f1": -3.84},
+    "No Gradient Clipping":   {"exact_match": 72.94, "f1": 82.41, "delta_em": -3.30, "delta_f1": -2.72},
+    "LR = 2e-5":              {"exact_match": 74.81, "f1": 83.84, "delta_em": -1.43, "delta_f1": -1.29},
+    "LR = 5e-5":              {"exact_match": 73.12, "f1": 82.63, "delta_em": -3.12, "delta_f1": -2.50},
+    "Cosine Scheduler":       {"exact_match": 75.84, "f1": 84.62, "delta_em": -0.40, "delta_f1": -0.51},
+    "Dynamic Padding OFF":    {"exact_match": 75.91, "f1": 85.01, "delta_em": -0.33, "delta_f1": -0.12},
+    "Weight Decay = 0.0":     {"exact_match": 75.72, "f1": 84.84, "delta_em": -0.52, "delta_f1": -0.29},
+    "doc_stride = 64":        {"exact_match": 75.21, "f1": 84.21, "delta_em": -1.03, "delta_f1": -0.92},
+    "doc_stride = 192":       {"exact_match": 75.78, "f1": 84.88, "delta_em": -0.46, "delta_f1": -0.25}
+  }
+}
